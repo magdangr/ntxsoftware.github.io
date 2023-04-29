@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', 'Open Sans', sans-serif;
+}
+
+button {
+  border: none;
+  font-family: inherit;
+}
+
+a {
+  font-size: 15px;
+  color: #5d5d5d;
+  text-decoration: none;
+
+}
+
+.link-color {
+  color: #fff;
+}
