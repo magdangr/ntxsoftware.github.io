@@ -14,16 +14,16 @@
 
 .landing-page .header-area {
   display: flex;
-  padding: 25px 0 0;
+  padding: 10px 0 0;
   position: relative;
   justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
   display: flex;
   margin: 0;
   padding: 0;
-  margin-bottom: -900px;
 }
 
 .header-area .logo {
@@ -32,12 +32,15 @@
 }
 
 .landing-page .header-area .logo {
-  text-transform: uppercase;
-  font-style: italic;
-  margin-top: 10px;
-  font-size: 19px;
-  width: 300px;
-  color: #5d5d5d;
+  height: 100%;
+  width: 100%;
+}
+
+.landing-page .header-area .logo img {
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+  vertical-align: middle;
 }
 
 .landing-page .header-area .links {
@@ -46,13 +49,16 @@
   margin: 0;
   width: 100%;
   text-align: right;
+  align-items: center;
+  
 }
 
 .landing-page .header-area .links li {
   display: inline-block;
-  margin-left: 30px;
+  margin-left: 20px;
   color: #5d5d5d;
   cursor: pointer;
+  vertical-align: middle;
 }
 
 .links:hover {
@@ -165,17 +171,23 @@ button:hover {
   }
 
   .landing-page .header-area .logo {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
 
   .landing-page .header-area .links {
-    margin-top: 30px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
   }
 
   .landing-page .header-area .links li {
-    display: block;
-    margin: 10px
+    margin: 0 10px;
+  }
+
+  .landing-page .header-area .links li:last-child {
+    margin-top: 10px;
   }
 }
 
@@ -188,13 +200,13 @@ button:hover {
   }
 
   .landing-page .header-area {
-    padding: 10px 0;
+    padding: 5px 0;
   }
 
   .landing-page .header-area .logo {
     height: 40px;
     width: 40px;
-    margin-top: 5px;
+    margin-top: 0px;
   }
 
   .landing-page .header-area .logo,
@@ -203,7 +215,7 @@ button:hover {
   }
 
   .landing-page .header-area .links li {
-    margin-left: 20px;
+    margin-left: 10px;
   }
 
   .landing-page .info,

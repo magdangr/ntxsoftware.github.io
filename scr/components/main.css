@@ -134,6 +134,14 @@ main {
     margin: 20px auto;
   }
 
+  .card-1,
+  .card-2,
+  .card-3 {
+    width: 90%;
+    height: auto;
+    margin: 20px auto;
+  }
+
   .card-header {
     height: 150px;
   }
